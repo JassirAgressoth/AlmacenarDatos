@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5a3ff"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffb5"
+        android:gravity="bottom|left"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="235dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="378dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textCursorDrawable="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="175dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="456dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginRight="216dp"
+            android:layout_marginBottom="211dp"
+            android:onClick="Escribir"
+            android:text="Guardar"
+            app:backgroundTint="#ffa07a" />
+
+        <Button
+            android:id="@+id/abrir"
+            android:layout_width="152dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="239dp"
+            android:layout_marginLeft="239dp"
+            android:layout_marginTop="459dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="208dp"
+            android:onClick="leer"
+            android:text="Abrir "
+            app:backgroundTint="#70db93" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginBottom="520dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Ingrese cantidad a guardar"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
